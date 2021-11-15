@@ -1,0 +1,6 @@
+<doc>
+<root>
+    <pair><x>10</x><y>20</y></pair>
+    <pair><x>30</x><y>40</y></pair>
+</root>
+</doc>

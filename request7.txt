@@ -1,0 +1,4 @@
+Orders
+OrderBy OrderID
+Take 3
+Select new (OrderID, ShipCountry, CustomerID, Customer.ContactName, Customer.CompanyName)

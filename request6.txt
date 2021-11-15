@@ -1,0 +1,3 @@
+Orders
+Where ShippedDate == null && Freight == null
+Select new (OrderID, OrderDate, ShippedDate, Freight)

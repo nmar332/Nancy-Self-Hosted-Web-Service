@@ -1,0 +1,5 @@
+Customers
+OrderBy ContactName DESC
+Where CustomerID < "D"
+Take 3
+Select new (CustomerID, ContactName, CompanyName)

@@ -1,0 +1,1 @@
+[{"orderID":10249,"orderDate":null,"shippedDate":"1996-07-10T00:00:00.0000000+12:00","freight":11.6100},{"orderID":10250,"orderDate":null,"shippedDate":"1996-07-12T00:00:00.0000000+12:00","freight":65.8300}]

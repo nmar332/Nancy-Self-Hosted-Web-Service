@@ -1,0 +1,53 @@
+... loading .\data\Customers.xml
+... loading .\data\Orders.xml
+... "joining" Orders to Customers
+... starting
+
+... Initalising
+
+... Running on http://localhost:8081
+
+... Initalising
+GET ...
+
+... Initalising
+Customers
+OrderBy: ContactName DESC
+Where: CustomerID < "D"
+Take: 3
+Select: new (CustomerID, ContactName, CompanyName)
+
+... Initalising
+Orders
+OrderBy: OrderID
+Take: 3
+Select: new (OrderID, ShipCountry, CustomerID)
+
+... Initalising
+Orders
+Where: OrderDate == null
+Take: 3
+Select: new (OrderID, OrderDate, ShippedDate, Freight)
+
+... Initalising
+Orders
+Where: OrderDate != null && (ShippedDate == null || Freight == null)
+Take: 3
+Select: new (OrderID, OrderDate, ShippedDate, Freight)
+
+... Initalising
+Orders
+Where: ShippedDate == null && Freight == null
+Take: 3
+Select: new (OrderID, OrderDate, ShippedDate, Freight)
+
+... Initalising
+Orders
+Where: ShippedDate == null && Freight == null
+Select: new (OrderID, OrderDate, ShippedDate, Freight)
+
+... Initalising
+Orders
+OrderBy: OrderID
+Take: 3
+Select: new (OrderID, ShipCountry, CustomerID, Customer.ContactName, Customer.CompanyName)

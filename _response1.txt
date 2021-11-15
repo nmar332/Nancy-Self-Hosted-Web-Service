@@ -1,0 +1,1 @@
+[{"customerID":"CHOPS","contactName":"Yang Wang","companyName":"Chop-suey Chinese"},{"customerID":"BSBEV","contactName":"Victoria Ashworth","companyName":"B's Beverages"},{"customerID":"AROUT","contactName":"Thomas Hardy","companyName":"Around the Horn"}]

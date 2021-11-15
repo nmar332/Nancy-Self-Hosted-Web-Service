@@ -1,0 +1,4 @@
+C:\Users\nickm\Documents\Uni\335\a8\_A8-skeleton\obj\Debug\netcoreapp2.1\_A8-skeleton.csprojAssemblyReference.cache
+C:\Users\nickm\Documents\Uni\335\a8\_A8-skeleton\obj\Debug\netcoreapp2.1\_A8-skeleton.csproj.CoreCompileInputs.cache
+C:\Users\nickm\Documents\Uni\335\a8\_A8-skeleton\obj\Debug\netcoreapp2.1\_A8-skeleton.AssemblyInfoInputs.cache
+C:\Users\nickm\Documents\Uni\335\a8\_A8-skeleton\obj\Debug\netcoreapp2.1\_A8-skeleton.AssemblyInfo.cs
